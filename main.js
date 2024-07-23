@@ -7,7 +7,7 @@ const port = process.env.PORT || 4000
 //app.get or app.post or app.put or app.delete(path, handler)
 
 app.get('/', (req, res) => {
-  res.send('Hello World ')
+  res.send('Hello Everyone ')
 })
 
 app.use(express.json()); // middleware to parse json data
